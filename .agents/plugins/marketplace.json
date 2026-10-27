@@ -1,0 +1,20 @@
+{
+  "name": "hr2ay-video-tools",
+  "interface": {
+    "displayName": "HR2AY Video Tools"
+  },
+  "plugins": [
+    {
+      "name": "video-republish-assistant",
+      "source": {
+        "source": "local",
+        "path": "./plugins/video-republish-assistant"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
