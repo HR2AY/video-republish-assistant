@@ -1,0 +1,36 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "video-republish-assistant",
+  "version": "1.0.0",
+  "description": "Download authorized social videos, preserve source metadata, and draft Chinese republishing copy.",
+  "author": {
+    "name": "HR2AY",
+    "url": "https://github.com/HR2AY"
+  },
+  "homepage": "https://github.com/HR2AY/video-republish-assistant",
+  "repository": "https://github.com/HR2AY/video-republish-assistant",
+  "license": "MIT",
+  "keywords": [
+    "video",
+    "republishing",
+    "social-media",
+    "provenance",
+    "xiaohongshu"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Video Republish Assistant",
+        "shortDescription": "Download authorized videos and prepare Chinese social copy.",
+        "longDescription": "Preserve source details, download authorized social videos, verify the files, and draft transparent Chinese republishing copy for platforms such as Xiaohongshu.",
+        "developerName": "HR2AY",
+        "category": "Productivity",
+        "brandColor": "#E84B64",
+        "defaultPrompt": [
+          "Download this authorized video, save its source metadata, and draft a Xiaohongshu post.",
+          "Process these authorized video links for Chinese social platforms and keep a provenance file beside each video."
+        ]
+      }
+    }
+  }
+}
